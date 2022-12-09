@@ -86,6 +86,22 @@ class text:
         if (path == "@"): return "["+text.cyan+"*"+text.endc+"] "+text.cyan+ message +text.endc
         if (path == "#"): return "["+text.header+"*"+text.endc+"] "+text.header+ message +text.endc
 
+# spam
+class spam:
+    ## menu
+    def menu():
+        print(text.endc+"""
++----------------------------+--------+
+|        Reason              | Number |
++----------------------------+--------+
+| sms                        |      1 |
++----------------------------+--------+
+| call                       |      2 |
++----------------------------+--------+
+| email                      |      3 |
++----------------------------+--------+
+""")
+
 # cmd
 class cmd:
     ## clear screen
