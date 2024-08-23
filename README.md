@@ -5,7 +5,7 @@
 - [ ] Call
 - [ ] Email
 <br><br>
-<h3>📘 Python libraris</h3>
+<h3>📘 Python libraries</h3>
 <ol>
     <li>requests</li>
     <li>json</li>
