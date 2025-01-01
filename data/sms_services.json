@@ -1,0 +1,25 @@
+{
+  "digikala": {
+    "url": "https://api.digikala.com/v1/user/authenticate/",
+    "data": {
+      "backUrl": "/",
+      "username": "0{phone}",
+      "otp_call": false
+    }
+  },
+  "snapp drivers": {
+    "url": "https://digitalsignup.snapp.ir/v3/verify-cellphone",
+    "method": "get",
+    "data": {
+      "method": "sms_v2",
+      "cellphone": "0{phone}"
+    }
+  },
+  "gap": {
+    "url": "https://core.gap.im/v1/user/add.json",
+    "method": "get",
+    "data": {
+      "mobile": "+98{phone}"
+    }
+  }
+}

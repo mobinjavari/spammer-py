@@ -1,0 +1,10 @@
+{
+  "digikala": {
+    "url": "https://api.digikala.com/v1/user/authenticate/",
+    "data": {
+      "backUrl": "/",
+      "username": "0{phone}",
+      "otp_call": true
+    }
+  }
+}
